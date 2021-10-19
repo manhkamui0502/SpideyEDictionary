@@ -1,0 +1,13 @@
+Cách cài javaFx vào project có sẵn:
+B1: Tải javaFx về từ https://openjfx.io/ và giải nén
+B2: Trên thanh công cụ, vào Run -> Edit Configuration -> Modify Option -> Add VM options 
+    Copy đường dẫn đến thư mục javafx vừa tải (dẫn tới file lib)
+    Thay đoạn trong dấu "" bằng đường dẫn đến thư mục javafx đã copy phía trên) --module-path "" --add-modules javafx.controls,javafx.fxml
+    Paste vào phần VM options -> Apply -> Ok
+B3: Chạy thử
+
+Ví dụ: 
+--module-path D:\openjfx-17.0.0.1_windows-x64_bin-sdk\javafx-sdk-17.0.0.1\lib --add-modules javafx.controls,javafx.fxml
+
+Hoặc trong Intellij Idea: 
+    Build, Execution, Deployment > Maven > Importing > VM options for importer, set to -Xmx2g

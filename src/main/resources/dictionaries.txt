@@ -1,0 +1,12 @@
+
+Spiderman	Người nhện
+Ironman 	Nguoi sat
+Scare	Sợ
+Captain	Đội trưởng
+Amazing	Tuyệt cmn vời
+Hello	Xin chào
+Smart	Thông minh
+Idiot	Ngu
+Awesome	Tuyệt vời
+Batman	Người dơi
+Ant-man	Người kiến
